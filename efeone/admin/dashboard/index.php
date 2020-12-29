@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Basic Responsive Admin Dashboard</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./dashboard/style.css">
 
 </head>
 <body>
@@ -23,13 +24,16 @@
 					<li><a href="#">About</a></li>
 					<li><a href="#">Social</a></li>
 					<li><a href="#">Contact</a></li>
+					<li><a href="./logout.php">Logout</a></li>
 				</ul>
 			</nav>
 		</div>
-
+         
 		<div class="main-content">
 			<h1>Dashboard</h1>
 			<p>Here you can stuff!</p>
+		  
+			
 			<div class="panel-wrapper">
 				<div class="panel-head">
 					News
@@ -57,9 +61,6 @@
 		</div>
 	</div>
 <!-- partial -->
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
-  <?php
-echo("test");
-?>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./dashboard/script.js"></script>
 </body>
 </html>
